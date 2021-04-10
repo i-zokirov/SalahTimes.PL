@@ -1,0 +1,74 @@
+<%- include('partials/header')%>
+
+    <%- include('partials/navbar')%>
+        <main class="tm-main">
+
+            <div class="col-12 tm-color-primary arabic-font-size-medium">
+                <h1 class="text-center tm-pt-30 tm-color-primary">Ramadhan Calendar for 2021</h1>
+            </div>
+            <hr class="tm-hr-primary">
+
+            <fieldset lass="form-group tm-color-primary tm-post-title">
+                <label class="tm-color-primary tm-post-title">
+                    Choose your city:
+                </label>
+
+                <select id="cityOptions" class="form-control tm-color-primary">
+                    <option  class="tm-color-primary" value="warsaw">Warsaw</option>
+                        <option class="tm-color-primary" value="katowice">Katowice</option>
+                        <option class="tm-color-primary" value="gdansk">Gdansk</option>
+                        <option class="tm-color-primary" value="lublin">Lublin</option> 
+                        <option class="tm-color-primary" value="krakow">Krakow</option> 
+                        <option class="tm-color-primary" value="poznan">Poznan</option> 
+                        <option class="tm-color-primary" value="Wroclaw">Wroclaw</option> 
+                        <option class="tm-color-primary" value="Lodz">Lodz</option> 
+                        <option class="tm-color-primary" value="Szczecin">Szczecin</option> 
+                        <option class="tm-color-primary" value="białystok">Białystok</option> 
+                        <option class="tm-color-primary" value="bydgoszcz">Bydgoszcz</option> 
+                        <option class="tm-color-primary" value="lublin">Lublin</option> 
+                        <option class="tm-color-primary" value="sosnowiec">Sosnowiec</option> 
+                        <option class="tm-color-primary" value="gliwice">Gliwice</option> 
+                        <option class="tm-color-primary" value="bielsko-biała">Bielsko-Biała</option> 
+                        <option class="tm-color-primary" value="Rzeszów">Rzeszów</option> 
+                        <option class="tm-color-primary" value="rybnik">Rybnik</option> 
+                        <option class="tm-color-primary" value="tychy">Tychy</option> 
+                        <option class="tm-color-primary" value="Dąbrowa20%Górnicza">Dąbrowa Górnicza</option>
+                    
+                </select>
+            </fieldset>
+
+            <div style="overflow-x:auto;" class="table-responsive">
+                <table class="table text-center tm-color-primary table-hover mt-5">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Fajr</th>
+                            <th>Dhuhr</th>
+                            <th>Asr</th>
+                            <th>Maghrib</th>
+                            <th>Isha</th>
+
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Suhr</th>
+                            <th></th>
+                            <th></th>
+                            <th>Iftar</th>
+                            <th></th>
+
+                        </tr>
+
+                    </thead>
+                    <tbody id="calendarData">
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- </table> -->
+
+        </main>
+
+        <%- include('partials/scripts') %>
+            <script src="/js/ramadhan.js"></script>
+            <%- include('partials/footer') %>

@@ -1,0 +1,79 @@
+.pry_title {
+    text-align: center;
+}
+
+
+/* .row {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+} */
+
+.pry_card {
+    background-color: #fff;
+}
+
+.card_right {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.card_right h4 {
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.card-left {
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+}
+
+.card-left h2 i {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.card-left a {
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    opacity: 0.6;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.card-right {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+
+/* ====================== */
+
+.asma-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    display: flex;
+    margin: 7px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.asma {
+    padding: 7px;
+    position: relative;
+    width: 100%;
+}

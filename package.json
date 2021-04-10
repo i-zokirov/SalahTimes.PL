@@ -1,0 +1,26 @@
+{
+  "name": "salahtimes.pl",
+  "version": "1.0.0",
+  "description": "Open source project to show prayer times in Poland",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prayer-times",
+    "prayer",
+    "salahtimes",
+    "salah",
+    "salah-times",
+    "salahtimes.pl",
+    "ramadhan",
+    "calendar"
+  ],
+  "author": "Ikboljon Zokirov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

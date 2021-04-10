@@ -1,0 +1,76 @@
+<%- include('partials/header')%>
+
+    <%- include('partials/navbar')%>
+
+        <div class="container-fluid">
+
+            <main class="tm-main">
+
+                <div class="col-12 tm-color-primary arabic-font-size-medium">
+                    <h1 class="text-center tm-pt-30 tm-color-primary arabic-font-size-medium"> بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ‎ </h1>
+                </div>
+                <hr class="tm-hr-primary">
+
+
+                <!-- <div class="pry_card tm-color-primary">
+                    <div class="card_right">
+                        <div class="card-left" style="background-color: #0cc;">
+                            <h2><i class="far fa-calendar-alt"></i></h2>
+
+                        </div>
+                        <div class="card-right">
+                            <h4></h4>
+                            <h6></h6>
+                        </div>
+                    </div>
+                </div> -->
+                <fieldset lass="form-group tm-color-primary tm-post-title">
+                    <label class="tm-color-primary tm-post-title">
+                        Choose your city:
+                    </label>
+
+                    <select id="cityOptions" class="form-control tm-color-primary">
+                        <option  class="tm-color-primary" value="warsaw">Warsaw</option>
+                        <option class="tm-color-primary" value="katowice">Katowice</option>
+                        <option class="tm-color-primary" value="gdansk">Gdansk</option>
+                        <option class="tm-color-primary" value="lublin">Lublin</option> 
+                        <option class="tm-color-primary" value="krakow">Krakow</option> 
+                        <option class="tm-color-primary" value="poznan">Poznan</option> 
+                        <option class="tm-color-primary" value="Wroclaw">Wroclaw</option> 
+                        <option class="tm-color-primary" value="Lodz">Lodz</option> 
+                        <option class="tm-color-primary" value="bydgoszcz">Bydgoszcz</option> 
+                        <option class="tm-color-primary" value="lublin">Lublin</option> 
+                        <option class="tm-color-primary" value="sosnowiec">Sosnowiec</option> 
+                        <option class="tm-color-primary" value="gliwice">Gliwice</option> 
+                        <option class="tm-color-primary" value="bielsko-biała">Bielsko-Biała</option> 
+                        <option class="tm-color-primary" value="Rzeszów">Rzeszów</option> 
+                        <option class="tm-color-primary" value="rybnik">Rybnik</option> 
+                        <option class="tm-color-primary" value="tychy">Tychy</option> 
+                        <option class="tm-color-primary" value="Dąbrowa20%Górnicza">Dąbrowa Górnicza</option> 
+                        
+                    </select>
+                </fieldset>
+
+                <div class="row" id="datafromAPI">
+
+                </div>
+
+
+                <hr class="tm-hr-primary">
+
+                <div class="card">
+                    <div class="card-header tm-color-primary">
+                        Hadith of the day
+                    </div>
+                    <div class="card-body tm-color-primary text-center">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+        <%- include('partials/scripts') %>
+
+            <script src="/js/home.js"></script>
+            <%- include('partials/footer') %>
